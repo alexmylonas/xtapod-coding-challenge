@@ -1,3 +1,5 @@
+// @desktop:   ~"only screen and (min-width: 960px) and (max-width: 1499px)";
+
 flex-direction: column;
 display: flex;
 margin: 48px 10% 0 10% !important;
@@ -38,6 +40,34 @@ margin: 48px 10% 0 10% !important;
     }
     .queue {
       background-color: white;
+    }
+  }
+}
+
+@media @tablet,@mobile {
+  .video-container {
+    flex-direction: column; 
+    margin-top: 36px;
+    .main {
+      width: 100%;
+      padding-right: 24px;
+      .video {
+        iframe {
+          height: 250px;
+        }
+      }
+    }
+  }
+}
+
+@media @mobile {
+  .video-container {
+    .main {
+      .video {
+        iframe {
+          height: 150px;
+        }
+      }
     }
   }
 }
