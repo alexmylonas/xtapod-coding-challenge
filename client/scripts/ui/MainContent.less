@@ -1,11 +1,10 @@
 flex-direction: column;
 display: flex;
-margin: 5% 10% 0 10% !important;
-width: 100vw;
+margin: 48px 10% 0 10% !important;
 .breadcrump-container {
   padding: 12px !important;
-  background-color: whitesmoke;
-  border-radius: 5px;
+  background-color: white;
+  border-radius: 4px;
   display: flex;
   .robot-img {
     height: 50px;
@@ -31,11 +30,14 @@ width: 100vw;
   display: flex;
   .main {
     width: 70%;
+    padding-right: 24px;
+    .video {
+      iframe {
+        height: 500px;
+      }
+    }
     .queue {
       background-color: white;
     }
-  }
-  .featured {
-
   }
 }

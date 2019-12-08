@@ -1,7 +1,53 @@
 
 background-color: white;
+display: flex;
+justify-content: space-between;
+// height: 40px;
 h2 {
   font-size: 30px;
   font-weight: bold;
 }
 
+.searchBox {
+  width: 400px;
+  .box {
+    display: flex;
+    align-items: center;
+    background-color: whitesmoke;
+    margin:8px;
+    border-radius: 2px;
+    border-color: rgb(201, 201, 201);
+    border-width: 1px;
+    border-style: solid;
+    padding-top: 6px;
+    padding-bottom: 6px;
+  }
+  input {
+    all: unset;
+    padding: 4px;
+    width: 350px;
+    background-color: whitesmoke;
+  }
+  img {
+    height: 12px;
+  }
+}
+
+.controls {
+  display: flex;
+  align-items: center;
+  img {
+    height: 20px;
+    margin-right: 12px;
+  }
+
+  .divider {
+    border-left:1px solid rgb(193, 193, 193);
+    height:25px;
+    margin-right: 12px;
+  }
+  .avatar {
+    height: 30px;
+    border-radius: 50%;
+  }
+}
