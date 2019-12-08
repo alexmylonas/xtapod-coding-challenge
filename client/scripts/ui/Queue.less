@@ -1,0 +1,52 @@
+display: flex;
+background-color: forestgreen;
+margin-top: 12px;
+border-radius: 8px;
+height: 70px;
+color: white;
+.flashcards {
+  width: 160px;
+  border-radius: 8px 0 0 8px;
+  background-color: green;
+  justify-content: space-between;
+  display: flex;
+  flex-direction: column;
+  padding: 8px;
+  padding-right: 10px;
+  padding-left: 10px;
+  hr {
+    // margin-right: 10px;
+    // margin-left: 10px;
+  }
+  .counter {
+    display: flex;
+    justify-content: flex-end;
+    .number {
+      font-size: 16px;
+      display: flex;
+      align-items: flex-end;
+    }
+    .name {
+      display: flex;
+      align-items: flex-end;
+      padding-left: 6px;
+      font-size: 10px;
+    }
+  }
+}
+
+button.add-to-queue {
+  display: flex;
+  background-color: forestgreen;
+  border-radius: 0px 8px 8px 0px;
+  border-style: none;
+  cursor: pointer;
+  width: 100%;
+  color: white;
+  font-size:24px;
+  text-align: center;
+  justify-content: center;
+  span {
+    width: 80%;
+  }
+}
