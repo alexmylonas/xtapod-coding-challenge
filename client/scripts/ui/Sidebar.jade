@@ -1,24 +1,24 @@
 .ui-Sidebar
-  .menu
+  .menu(data-bind='click: alert')
     img(src="/assets/menu.svg", class="filter-light-grey", alt="files")
   .tools
     .top-tools
-      .tool.logo
+      .tool.logo(data-bind='click: alert')
         img(src="/assets/logo.png", alt="logo")
         .name Library
-      .tool
+      .tool(data-bind='click: alert')
         img(src="/assets/calendar.svg", alt="logo")
         .name Step 1 Schedule
-      .tool
+      .tool(data-bind='click: alert')
         img(src="/assets/customer-support.svg", alt="logo")
         .name Quiz Builder
-      .tool
+      .tool(data-bind='click: alert')
         img(src="/assets/group.svg", alt="logo")
         .name Team workspace
     .bottom-tools
-      .tool
+      .tool(data-bind='click: alert')
         img(src="/assets/plus-black-symbol.svg", alt="logo")
         .name Add Tools
-      .tool
+      .tool(data-bind='click: alert')
         img(src="/assets/question-mark.svg", alt="logo")
         .name Help

@@ -32,5 +32,13 @@ PageComponent.prototype.add = function() {
   });
 }
 
+PageComponent.prototype.alert = function() {
+  console.log('alert')
+  // this.list.push('ui/ListElement',{
+    // title: 'Title example '+(this.list.items.length+1),
+    // body: 'Here is an example body.',
+  // });
+}
+
 module.exports = PageComponent;
 
