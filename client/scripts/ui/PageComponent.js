@@ -19,26 +19,9 @@ function PageComponent(bind,args) {
   // fs.mixAppend($('.appended-elements',this.dom),'ui/AppendedExample');
   // fs.mixAppend($('.appended-elements',this.dom),'ui/AppendedExample');
 
-  // Mixlists are essentially the same as mixAppend but they're more managed (allows for sorting, deleting, etc)
-  this.list = fs.mixList(this,'.mix-list');
-  this.add();
+  // // Mixlists are essentially the same as mixAppend but they're more managed (allows for sorting, deleting, etc)
+  // this.list = fs.mixList(this,'.mix-list');
+  // this.add();
 }
-
-PageComponent.prototype.add = function() {
-
-  this.list.push('ui/ListElement',{
-    title: 'Title example '+(this.list.items.length+1),
-    body: 'Here is an example body.',
-  });
-}
-
-PageComponent.prototype.alert = function() {
-  console.log('alert')
-  // this.list.push('ui/ListElement',{
-    // title: 'Title example '+(this.list.items.length+1),
-    // body: 'Here is an example body.',
-  // });
-}
-
 module.exports = PageComponent;
 
